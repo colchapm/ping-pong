@@ -4,7 +4,7 @@ class PingPong
 {
   static void Main()
   {
-    Console.WriteLine("Please enter a number greater than zero:");
+    Console.WriteLine("Please enter a number greater than zero.");
     string stringInputNumber = Console.ReadLine();
     int intInputNumber = int.Parse(stringInputNumber);
 
